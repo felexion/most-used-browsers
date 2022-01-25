@@ -3,8 +3,8 @@ body {
 }
 .heading {
     font-family: "Outfit";
-    margin: 3%;
-    font-size: 40px;
+    margin: 1%;
+    font-size: 50px;
     text-shadow: 2px 2px #022954;
     color: #354c7c;
     text-align: center;
@@ -38,4 +38,31 @@ body {
     border-radius: 25px;
     padding: 20px;
     box-shadow: 4px 4px #505a74;
+}
+.btn {
+    padding: 10px 25px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6pt;
+    font-family: "Outfit";
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 400px;	height: 35px;
+}	
+.anim{
+    background-color: #b0b8ce;
+    box-shadow: 4px 4px #505a74;
+    color: black;
+}
+.anim:hover {
+    background-color: #b0b8ce;
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px #505a74;
+}		
+#anim:hover {
+    background-color: #b0b8ce;
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px #505a74;
 }
