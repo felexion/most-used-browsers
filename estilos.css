@@ -9,6 +9,20 @@ body {
     color: #354c7c;
     text-align: center;
 }
+.heading2 {
+    font-family: "Outfit";
+    margin: 1%;
+    font-size: 40px;
+    text-shadow: 2px 2px #022954;
+    color: #354c7c;
+    text-align: center;
+}
+.descrip {
+    font-family: "Outfit";
+    text-align: center;
+    font-size: 24px;
+    margin: 3%;
+}
 #wrapper {
     display: flex;
 }
@@ -60,9 +74,12 @@ body {
     background-color: #b0b8ce;
     transform: translate(4px, 4px);
     box-shadow: 0px 0px #505a74;
-}		
-#anim:hover {
-    background-color: #b0b8ce;
-    transform: translate(4px, 4px);
-    box-shadow: 0px 0px #505a74;
+}
+.question {
+    font-family: "Outfit";
+    color: #022954;
+}
+.answer {
+    font-family: "Outfit";
+    color: black;
 }
