@@ -17,6 +17,14 @@ body {
     color: #354c7c;
     text-align: center;
 }
+.headingweb {
+    font-family: "Outfit";
+    font-size: 35px;
+}
+.paragraphweb {
+    font-family: "Outfit";
+    font-size: 20px;
+}
 .descrip {
     font-family: "Outfit";
     text-align: center;
@@ -33,7 +41,7 @@ body {
     background-color: #b0b8ce;
     border-radius: 25px;
     padding: 20px;
-    box-shadow: 4px 4px #505a74;
+    box-shadow: 6px 6px #505a74;
 }
 #two {
     flex: 1 20%;
@@ -42,7 +50,7 @@ body {
     background-color: #b0b8ce;
     border-radius: 25px;
     padding: 20px;
-    box-shadow: 4px 4px #505a74;
+    box-shadow: 6px 6px #505a74;
 }
 #three {
     flex: 1 20%;
@@ -51,9 +59,9 @@ body {
     background-color: #b0b8ce;
     border-radius: 25px;
     padding: 20px;
-    box-shadow: 4px 4px #505a74;
+    box-shadow: 6px 6px #505a74;
 }
-.btn {
+.btntop {
     padding: 10px 25px;
     border: none;
     font-size: 16px;
@@ -75,11 +83,22 @@ body {
     transform: translate(4px, 4px);
     box-shadow: 0px 0px #505a74;
 }
-.question {
+.btnweb {
+    font-size: 20px;
+    border: none;
+    border-radius: 6pt;
     font-family: "Outfit";
-    color: #022954;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 130px;	height: 35px;
 }
-.answer {
-    font-family: "Outfit";
-    color: black;
+.animweb{
+    background-color: #354c7c;
+    box-shadow: 4px 4px #022954;
+    color: white;
+}
+.animweb:hover {
+    background-color: #354c7c;
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px #022954;
 }
