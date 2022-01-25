@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(214, 236, 229);
+}
+.heading {
+    font-family: "Lato";
+    margin: 5%;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+}
+#wrapper {
+    display: flex;
+}
+#one {
+    flex: 1 20%;
+    margin: 3%;
+    background-color: beige;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 5px 10px white;
+}
+#two {
+    flex: 1 20%;
+    margin: 3%;
+    background-color: beige;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 5px 10px white;
+}
+#three {
+    flex: 1 20%;
+    margin: 3%;
+    background-color: beige;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 5px 10px white;
+}
