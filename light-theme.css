@@ -165,6 +165,8 @@ body {
 /* Toggle button */
 .btntog {
     font-size: 20px;
+    padding: 3px;
+    margin: 5%;
     border: none;
     border-radius: 6pt;
     font-family: "Outfit";
@@ -186,4 +188,10 @@ body {
 }
 .centerdiv {
     text-align: center;
+}
+footer {
+    background-color: #505a74;
+    text-align: center;
+    padding: 3px;
+    color: white;
 }
