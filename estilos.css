@@ -1,6 +1,44 @@
 body {
     background-color: #eaebfe;
 }
+/* SPLASH SCREEN */
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #b9bdfc;
+    transition: 1s;
+}
+.logo-header {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: #354c7c;
+    font-family: "Outfit";
+    font-size: 80px;
+    text-shadow: 2px 2px #022954;
+}
+.logo {
+   position: relative;
+   display: inline-block; 
+   bottom: -20px;
+   opacity: 0;
+}
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+/* END OF SPLASH SCREEN */
 .heading {
     font-family: "Outfit";
     margin: 1%;
