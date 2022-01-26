@@ -1,0 +1,186 @@
+body {
+    background-color: #eaebfe;
+    transition: 0.3s;
+}
+/* SPLASH SCREEN */
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #b0b8ce;
+    transition: 1s;
+}
+.logo-header {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: #354c7c;
+    font-family: "Outfit";
+    font-size: 80px;
+    text-shadow: 2px 2px #022954;
+}
+.logo {
+   position: relative;
+   display: inline-block; 
+   bottom: -20px;
+   opacity: 0;
+}
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+/* END OF SPLASH SCREEN */
+.heading {
+    font-family: "Outfit";
+    margin: 1%;
+    font-size: 50px;
+    text-shadow: 2px 2px #022954;
+    color: #354c7c;
+    text-align: center;
+    animation: 4s ease-out 0s 1 slideInFromLeft;
+    transition: 0.3s;
+}
+.heading2 {
+    font-family: "Outfit";
+    margin: 1%;
+    font-size: 40px;
+    text-shadow: 2px 2px #022954;
+    color: #354c7c;
+    text-align: center;
+    animation: 4s ease-out 0s 1 slideInFromLeft;
+    transition: 0.3s;
+}
+.headingweb {
+    font-family: "Outfit";
+    font-size: 35px;
+    transition: 0.3s;
+}
+.paragraphweb {
+    font-family: "Outfit";
+    font-size: 20px;
+    transition: 0.3s;
+}
+.descrip {
+    font-family: "Outfit";
+    text-align: center;
+    font-size: 24px;
+    margin: 3%;
+    animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+#wrapper {
+    display: flex;
+    animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+#one {
+    flex: 1 20%;
+    font-family: "Outfit";
+    margin: 3%;
+    background-color: #b0b8ce;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 6px 6px #505a74;
+    transition: 0.3s;
+}
+#two {
+    flex: 1 20%;
+    font-family: "Outfit";
+    margin: 3%;
+    background-color: #b0b8ce;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 6px 6px #505a74;
+    transition: 0.3s;
+}
+#three {
+    flex: 1 20%;
+    font-family: "Outfit";
+    margin: 3%;
+    background-color: #b0b8ce;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 6px 6px #505a74;
+    transition: 0.3s;
+}
+.btntop {
+    padding: 10px 25px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6pt;
+    font-family: "Outfit";
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 400px;	height: 35px;
+}	
+.anim{
+    background-color: #b0b8ce;
+    box-shadow: 4px 4px #505a74;
+    color: black;
+}
+.anim:hover {
+    background-color: #022954;
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px #354c7c;
+    color: white;
+}
+.btnweb {
+    font-size: 20px;
+    border: none;
+    border-radius: 6pt;
+    font-family: "Outfit";
+    cursor: pointer;
+    transition: 0.3s;
+    width: 130px;	height: 35px;
+}
+.animweb{
+    background-color: #eaebfe;
+    box-shadow: 4px 4px #505A74;
+    color: black;
+}
+.animweb:hover {
+    background-color: #022954;
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px #354c7c;
+    color: white;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+/* Toggle button */
+.btntog {
+    font-size: 20px;
+    border: none;
+    border-radius: 6pt;
+    font-family: "Outfit";
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;	height: 35px;
+    animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+.animtog{
+    background-color: #022954;
+    box-shadow: 4px 4px #354c7c;
+    color: white;
+}
+.animtog:hover {
+    background-color: #022954;
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px #354c7c;
+    color: white;
+}
