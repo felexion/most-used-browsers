@@ -93,12 +93,12 @@ body {
     width: 130px;	height: 35px;
 }
 .animweb{
-    background-color: #354c7c;
-    box-shadow: 4px 4px #022954;
-    color: white;
+    background-color: #eaebfe;
+    box-shadow: 4px 4px #505A74;
+    color: black;
 }
 .animweb:hover {
-    background-color: #354c7c;
+    background-color: #eaebfe;
     transform: translate(4px, 4px);
-    box-shadow: 0px 0px #022954;
+    box-shadow: 0px 0px #505A74;
 }
